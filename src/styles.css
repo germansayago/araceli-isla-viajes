@@ -38,16 +38,27 @@ body{
 .aris-group{
   width: 80px;
 }
+footer ul {
+  list-style: none;
+  padding: 0px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
 
 @media(max-width: 767px) {
   .brand{
     width: 160px;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
   }
   .social{
-    margin-bottom: 32px;
+    margin-bottom: 8px;
   }
   .aris-group{
     width: 54px;
+  }
+  footer{
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.2;
   }
 }
